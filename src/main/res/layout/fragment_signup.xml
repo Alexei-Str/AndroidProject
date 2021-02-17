@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLSignup"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_fragment"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".Fragments.signup">
+
+    <EditText
+        android:id="@+id/etNameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="8dp"
+        android:fontFamily="monospace"
+        android:hint="@string/username"
+        android:background="@drawable/fields"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etEmailS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="@string/email"
+            android:background="@drawable/fields"
+            android:padding="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etPassS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="8dp"
+            android:fontFamily="monospace"
+            android:hint="@string/password"
+            android:background="@drawable/fields"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/registerBtnAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_register"
+        android:fontFamily="monospace"
+        android:text="@string/register"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/common_google_signin_btn_text_dark" />
+
+    </LinearLayout>

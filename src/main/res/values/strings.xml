@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="change_background">Change background </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">UserName</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="log_out">Log Out</string>
+    <string name="_8_30">8:30</string>
+    <string name="planned_action">Planned action</string>
+    <string name="title">Title</string>
+    <string name="add_item">Add Item</string>
+    <string name="your_title">Your title</string>
+    <string name="delete_all">Delete All</string>
+    <string name="your_task">Your task</string>
+</resources>
